@@ -54,116 +54,86 @@
 
     <!-- cardItems -->
     <div class="container-fluid mt-4 px-lg-6 mb-5">
-      <div class="container-fluid font-poppins">
-        <div
-          class="row row-cols-1 row-cols-xl-4 row-cols-lg-2 row-cols-sm-2 row-cols-md-2 text-center"
-        >
-          <div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
-            <div
-              class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center"
-            >
-              <div class="left-xs-0">
-                <div
-                  class="card-logos card-sm-logos background-6 ml-3 rounded d-flex align-items-center justify-content-center"
-                >
-                  <img
-                    src="assets/icon/coolicon.svg"
-                    width="40"
-                    height="40"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2"
-              >
-                <h6 class="font-weight-normal font-size-4">Total Jenis Data</h6>
-                <h4 class="font-weight-bolder font-size-3 pt-1 text-left">
-                  1000
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
-            <div
-              class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center"
-            >
-              <div class="left-xs-0">
-                <div
-                  class="card-logos card-sm-logos background-5 ml-3 rounded d-flex align-items-center justify-content-center"
-                >
-                  <img
-                    src="assets/icon/coolicon.svg"
-                    width="40"
-                    height="40"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2"
-              >
-                <h6 class="font-weight-normal font-size-4">Total Data Set</h6>
-                <h4 class="font-weight-bolder font-size-3 pt-1 text-left">
-                  1000
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
-            <div
-              class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center"
-            >
-              <div class="left-xs-0">
-                <div
-                  class="card-logos card-sm-logos background-4 ml-3 rounded d-flex align-items-center justify-content-center"
-                >
-                  <img
-                    src="assets/icon/coolicon.svg"
-                    width="40"
-                    height="40"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2"
-              >
-                <h6 class="font-weight-normal font-size-4">Total Wilayah</h6>
-                <h4 class="font-weight-bolder font-size-3 pt-1 text-left">
-                  1000
-                </h4>
-              </div>
-            </div>
-          </div>
-          <div class="col px-0 py-xs-2 pr-md-0">
-            <div
-              class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center"
-            >
-              <div class="left-xs-0">
-                <div
-                  class="card-logos card-sm-logos background-3 ml-3 rounded d-flex align-items-center justify-content-center"
-                >
-                  <img
-                    src="assets/icon/coolicon.svg"
-                    width="40"
-                    height="40"
-                    alt=""
-                  />
-                </div>
-              </div>
-              <div
-                class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2"
-              >
-                <h6 class="font-weight-normal font-size-4">Total User Data</h6>
-                <h4 class="font-weight-bolder font-size-3 pt-1 text-left">
-                  1000
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      	<div class="container-fluid font-poppins">
+			<div class="row row-cols-1 row-cols-xl-4 row-cols-lg-2 row-cols-sm-2 row-cols-md-2 text-center">
+				<div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
+					<div class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center">
+					<div class="left-xs-0">
+						<div class="card-logos card-sm-logos background-6 ml-3 rounded d-flex align-items-center justify-content-center">
+						<img
+							src="assets/icon/coolicon.svg"
+							width="40"
+							height="40"
+							alt=""/>
+						</div>
+					</div>
+					<div class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2">
+						<h6 class="font-weight-normal font-size-4">Total Jenis Data</h6>
+						<h4 class="font-weight-bolder font-size-3 pt-1 text-left">
+						1000
+						</h4>
+					</div>
+					</div>
+				</div>
+				<div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
+					<div class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center">
+					<div class="left-xs-0">
+						<div class="card-logos card-sm-logos background-5 ml-3 rounded d-flex align-items-center justify-content-center">
+						<img
+							src="assets/icon/coolicon.svg"
+							width="40"
+							height="40"
+							alt=""/>
+						</div>
+					</div>
+					<div class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2">
+						<h6 class="font-weight-normal font-size-4">Total Data Set</h6>
+						<h4 class="font-weight-bolder font-size-3 pt-1 text-left">
+						1000
+						</h4>
+					</div>
+					</div>
+				</div>
+				<div class="col px-0 py-xs-2 pr-xl-4 pr-md-0">
+					<div class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center">
+					<div class="left-xs-0">
+						<div class="card-logos card-sm-logos background-4 ml-3 rounded d-flex align-items-center justify-content-center">
+						<img
+							src="assets/icon/coolicon.svg"
+							width="40"
+							height="40"
+							alt=""/>
+						</div>
+					</div>
+					<div class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2">
+						<h6 class="font-weight-normal font-size-4">Total Wilayah</h6>
+						<h4 class="font-weight-bolder font-size-3 pt-1 text-left">
+						1000
+						</h4>
+					</div>
+					</div>
+				</div>
+				<div class="col px-0 py-xs-2 pr-md-0">
+					<div class="card d-flex flex-row card-dataset justify-content-xs-center bg-white align-items-center">
+					<div class="left-xs-0">
+						<div class="card-logos card-sm-logos background-3 ml-3 rounded d-flex align-items-center justify-content-center">
+						<img
+							src="assets/icon/coolicon.svg"
+							width="40"
+							height="40"
+							alt=""/>
+						</div>
+					</div>
+					<div class="ml-xs-50 justify-content-xs-center d-flex flex-column pt-2">
+						<h6 class="font-weight-normal font-size-4">Total User Data</h6>
+						<h4 class="font-weight-bolder font-size-3 pt-1 text-left">
+						1000
+						</h4>
+					</div>
+					</div>
+				</div>
+			</div>
+      	</div>
     </div>
     <!-- end:cardItems -->
 
