@@ -76,7 +76,7 @@ window.onresize = function resizeFunc() {
 
 // owl carousel init
 function owlInitialize() {
-    if ($(window).width() < 1140) {
+    /**if ($(window).width() < 1140) {
         $('#slids').addClass("owl-carousel");
         $('.owl-carousel').owlCarousel({
             loop: false,
@@ -94,7 +94,7 @@ function owlInitialize() {
     } else {
         $('.owl-carousel').owlCarousel('destroy');
         $('#slids').removeClass("owl-carousel");
-    }
+    } **/
 }
 $(document).ready(function (e) {
     owlInitialize();
