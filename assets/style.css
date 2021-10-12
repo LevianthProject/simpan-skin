@@ -188,6 +188,10 @@ body .mt-7 {
     width: 135px;
 }
 
+.min-vh-80 {
+    min-height: 80vh;
+}
+
 .w-button {
     width: 50px;
 }
@@ -567,7 +571,29 @@ header {
 
 /* Responsive */
 
+@media (min-width: 1440px) {
+
+    body .container-xxl {
+        max-width: 1550px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    .hidden-lg-1 {
+        display: none;
+    }
+}
+
 @media (min-width: 1140px) {
+
+    .overflow-y-hide {
+        overflow-y: hidden;
+    }
 
 
     .wd-70 {
@@ -817,7 +843,7 @@ header {
 }
 
 
-@media (min-width: 370px) {
+@media (min-width: 320px) {
 
     body .z-0 {
         z-index: 0 !important;
@@ -847,7 +873,7 @@ header {
     }
 
     body .card-sm-logos {
-        width: 84px;
+        min-width: 84px;
         height: 85px;
     }
 

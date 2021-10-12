@@ -18,7 +18,7 @@
 
 </head>
 
-<body>
+<body class="overflow-y-hide">
 
     <!-- Navbar -->
     <header>
@@ -39,29 +39,30 @@
 
     <!-- vectorBackground -->
     <div class="w-100 d-flex flex-column flex-lg-row">
-        <div class="width-40 hidden-xl min-vh-100 background-9 d-flex justify-content-center align-items-center">
+        <div class="width-40 hidden-md background-9 d-flex justify-content-center align-items-center">
             <div class="">
-                <img src="assets/image/registrasiVector.svg" alt="">
+                <img width="100%" src="assets/image/registrasiVector.svg" alt="">
             </div>
         </div>
         <!-- end:vectorBackground -->
 
-
         <!-- formRegistrasi -->
-        <div class="d-flex w-100 flex-column mt-lg-0 mt-5">
-            <div class="position-relative ml-4 mt-5">
-                <h1 class="font-weight-bolder font-size-9 font-xs-4">Registrasi</h1>
-                <div class="d-flex flex-row py-3 font-xs-1">
+        <div class="d-flex w-100 flex-column mb-lg-1 mt-lg-0 pt-lg-0 pt-4 mt-5">
+            <div class="position-relative ml-4 mt-4 pt-lg-1">
+                <h1 class="font-weight-bolder font-size-5 font-xs-4">Registrasi</h1>
+                <div class="d-flex flex-row py-1 font-xs-1">
                     <a href="" class="text-decoration-none color-active">Perorangan</a>
                     <span class="px-3">|</span>
                     <a href="" class="text-decoration-none color-1">Kontributor</a>
                 </div>
-                <h4 class="py-3 font-size-3 font-xs-1 font-weight-bold">Pendaftaran untuk perorangan</h4>
-                <p class="pb-2 pr-3 px-lg-0 color-14 font-xs-3">Lets get your all set up so you can verufy your personal
+                <h4 class="py-1 font-size-1 font-xs-1 font-weight-bold">Pendaftaran untuk perorangan</h4>
+                <p class="pr-3 mb-0 px-lg-0 color-14 font-xs-3 font-size-7">Lets get your all set up so you can verufy
+                    your
+                    personal
                     account
                     and begin setting up your profile</p>
                 <hr class="w-75 position-relative ml-0">
-                <div class="position-relative font-poppins font-size-8 d-flex flex-lg-row pt-2 flex-column w-100">
+                <div class="position-relative font-poppins font-size-8 d-flex flex-lg-row pt-1 flex-column w-100">
                     <form class="d-flex flex-column width-md-50 w-100 pr-4 pr-lg-4">
                         <div class="form-group">
                             <label for="formGroupExampleInput">Full Name</label>
@@ -110,7 +111,8 @@
                         </div>
                     </form>
                 </div>
-                <div class="d-inline-flex font-poppins justify-content-center justify-content-lg-start w-100">
+                <div
+                    class="d-inline-flex font-poppins pb-3 mt-n4 justify-content-center justify-content-lg-start w-100">
                     <button class="btn font-size-xs-6 color-9 button-style-2 mr-5">
                         Cancel
                     </button>
@@ -123,8 +125,9 @@
     </div>
     <!-- end:formRegistrasi-->
 
+
     <!-- footer -->
-    <footer class="container-fluid background-1 footer-height footer-sm-height mt-lg-0 mt-5">
+    <footer class="container-fluid background-1 mt-n2 footer-height footer-sm-height">
         <div class="container-fluid">
             <div class="row flex-row pt-xs-1 pt-lg-2 d-flex font-poppins text-white">
                 <div
@@ -142,7 +145,7 @@
                     </h3>
                 </div>
                 <div
-                    class="col pt-lg-4 pt-2 d-flex flex-lg-row flex-xs-column flex-sm-column justify-content-lg-end pr-lg-5">
+                    class="col pt-lg-4 mt-2 mt-lg-0 d-flex flex-lg-row flex-xs-column flex-sm-column justify-content-lg-end pr-lg-5">
                     <h3 class="font-size-lg-1 font-size-sm-6 mr-lg-5">Follow Us</h3>
                     <div class="flex-row pt-xs-2 p-lg-0">
                         <i class="fab fa-facebook-f facebook-color font-size-5 mr-lg-5 mr-xs-1"></i>
@@ -165,9 +168,10 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
-    <script src="assets/script.js"></script>
+    <!-- <script src="assets/script.js"></script> -->
 
     <script>
+        // register upload button
         $(document).ready(function () {
             $('#choose-file').change(function () {
                 var i = $(this).prev('label').clone();

@@ -56,21 +56,22 @@ window.onload = function initFunc() {
 
     document.querySelector("#toggle-button").addEventListener("click", toggleActive);
     //close mobile menu
-    if (document.documentElement.offsetWidth > 950) {
+    if (document.documentElement.offsetWidth > 990) {
         setScrollEventListener(true);
     }
 };
 
 window.onresize = function resizeFunc() {
-    if (document.documentElement.offsetWidth > 950 &&
+    if (document.documentElement.offsetWidth > 990 &&
         document.querySelector("#nvOverlay").classList.contains('open')) {
         toggleActive();
     }
-    if (document.documentElement.offsetWidth > 950) {
+    if (document.documentElement.offsetWidth > 990) {
         setScrollEventListener(false);
     }
 
 };
+
 
 
 
