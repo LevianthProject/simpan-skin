@@ -250,6 +250,19 @@ body .button-3 {
     border-radius: 5px;
 }
 
+body .button-4 {
+    color: #fff;
+    border-radius: 5px;
+    background-color: #1A94AF;
+    border: 2px solid #1A94AF;
+}
+
+body .button-4:hover {
+    color: #248297 !important;
+    background-color: #fff;
+    border: 2px solid #248297;
+}
+
 body .button-style-1 {
     background: #1A94AF;
     border-radius: 5px;
@@ -461,6 +474,13 @@ header {
 
 .nvOverlay {
     position: fixed;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
     top: 0;
     left: 0;
     width: 100%;
@@ -528,16 +548,24 @@ header {
     position: relative;
     height: 100%;
     width: 100%;
-
 }
 
 .nvOverlay ul li {
     display: block;
-    height: 25%;
+    /* height: 25%;
     height: calc(100% / 4);
     height: auto;
 
-    min-height: 50px;
+    min-height: 50px; */
+    position: relative;
+    opacity: 0;
+    width: 100%;
+}
+
+.nvOverlay ul li~.dropdwn {
+    display: block;
+    /* height: 100px !important; */
+    min-height: 0px !important;
     position: relative;
     opacity: 0;
     width: 100%;
@@ -629,6 +657,13 @@ header {
 }
 
 @media (min-width: 992px) {
+
+    .fixed-lg-bottom {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
 
     .width-md-50 {
         width: 50% !important;

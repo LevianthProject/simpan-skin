@@ -159,10 +159,18 @@
                                     Kalkulator
                                 </a>
                             </li>
-                            <a class="nav-right right-lg-1" href="#">
-                                <button class="btn button-2 color-9 shadow-none font-poppins px-4 "
-                                    type="button">Login</button>
-                            </a>
+                            <div class="right-lg-1">
+                                <a class="nav-right" href="#">
+                                    <button class="btn button-2 color-9 shadow-none font-poppins px-4 "
+                                        type="button">Login
+                                    </button>
+                                </a>
+                                <a class="nav-right ml-2" href="#">
+                                    <button class="btn button-4 shadow-none font-poppins px-4" type="button">
+                                        Daftar
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -174,7 +182,7 @@
         <span class="middle"></span>
         <span class="bottom"></span>
     </div>
-    <div class="nvOverlay" id="nvOverlay">
+    <div class="nvOverlay d-block navbar-collapse" id="nvOverlay">
         <nav class="nvOverlay-menu">
             <ul>
                 <div class="navbar-nav ml-lg-5 m-xs-1 font-size-6">
@@ -186,9 +194,10 @@
                                     d="M17 18.5863H3C2.44772 18.5863 2 18.1386 2 17.5863V9.58629H0L9.292 0.293287C9.47957 0.10551 9.73409 0 9.9995 0C10.2649 0 10.5194 0.10551 10.707 0.293287L20 9.58629H18V17.5863C18 18.1386 17.5523 18.5863 17 18.5863ZM8 11.5863H12V16.5863H16V8.41429L10 2.41429L4 8.41429V16.5863H8V11.5863Z"
                                     fill="currentColor" />
                             </svg>
-                            Home</a>
+                            Home
+                        </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item ">
                         <a class="nav-link py-xs-3 color-1 font-poppins mx-lg-3" href="#">
                             <svg width="20" height="20" viewBox="0 0 20 20" class="mr-2" fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg">
@@ -210,9 +219,9 @@
                             </svg>
                             Data set</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link py-xs-3 color-1 color-active font-poppins mx-lg-3" href="#" id="publication"
-                            role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <li class="nav-item dropdown position-relative dropdwn">
+                        <a class="nav-link py-xs-3 color-1 color-active font-poppins mx-lg-3" data-toggle="collapse"
+                            href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                             <svg width="23" height="23" class="mr-2 color-active" viewBox="0 0 23 23"
                                 fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                 <g opacity="0.8" clip-path="url(#clip0)">
@@ -247,11 +256,13 @@
                             Publikasi
                             <i class="fas ml-lg-2 color-active fa-chevron-down"></i>
                         </a>
-                        <div class="dropdown-menu font-poppins mx-lg-3" aria-labelledby="publication">
-                            <a class="dropdown-item  py-lg-2 color-1 item-hovers font-poppins" href="#">Document</a>
-                            <a class="dropdown-item  py-lg-2 color-1 item-hovers font-poppins" href="#">Video</a>
-                            <a class="dropdown-item  py-lg-2 color-1 item-hovers font-poppins" href="#">Infografis</a>
-                            <a class="dropdown-item  py-lg-2 color-1 item-hovers font-poppins" href="#">Video</a>
+                        <div class="collapse w-50 pr-5" id="collapseExample">
+                            <div class="card card-body">
+                                <a class="pb-2 color-1 item-hovers font-poppins" href="#">Document</a>
+                                <a class="py-2 color-1 item-hovers font-poppins" href="#">Video</a>
+                                <a class="py-2 color-1 item-hovers font-poppins" href="#">Infografis</a>
+                                <a class="pt-2 color-1 item-hovers font-poppins" href="#">Podcast</a>
+                            </div>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -294,18 +305,21 @@
                             Kalkulator
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-inline-flex">
                         <a class="nav-link" href="#">
                             <button class="btn button-2 color-9 shadow-none font-poppins px-4"
                                 type="button">Login</button>
+                        </a>
+                        <a class="nav-link ml-2" href="#">
+                            <button class="btn button-4 shadow-none font-poppins px-4" type="button">
+                                Daftar
+                            </button>
                         </a>
                     </li>
                 </div>
             </ul>
         </nav>
     </div>
-    <!-- end:Navbar -->
-
     <!-- DokumenJumbotron -->
     <div id="hero"
         class="container-fluid d-flex align-items-lg-center justify-content-center mt-7 flex-column flex-md-row background-2 dokumen-jumbotron">
