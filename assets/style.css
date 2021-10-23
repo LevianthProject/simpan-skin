@@ -122,6 +122,10 @@ body .font-size-9 {
     font-size: 30px;
 }
 
+body .font-size-10 {
+    font-size: 12px;
+}
+
 body .background-1 {
     background: #1A94AF;
 }
@@ -242,6 +246,7 @@ body .button-2 {
 body .button-2:hover {
     color: #FFF !important;
     background-color: #1A94AF;
+    border: 2px solid #1A94AF;
 }
 
 body .button-3 {
@@ -314,7 +319,7 @@ body .U-Line-3 {
 
 body .btn-style {
     height: 40px;
-    width: 121px;
+    width: 132px;
 }
 
 body .button-height {
@@ -325,9 +330,28 @@ body .width-40 {
     width: 40%;
 }
 
+body .w-90 {
+    width: 90%;
+}
+
+.cards-video {
+    position: relative;
+    z-index: 0;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    top: 35%;
+}
+
 .owl-carousel {
     z-index: 0 !important;
 }
+
+
 
 .open-files {
     border: 1px solid #949494;
@@ -644,6 +668,10 @@ header {
         height: 332px;
     }
 
+    .slide-height-vid {
+        height: 432px;
+    }
+
     .slide-width {
         object-fit: contain;
         object-position: center;
@@ -658,11 +686,24 @@ header {
 
 @media (min-width: 992px) {
 
+    body .logo-responsives {
+        width: 25% !important;
+    }
+
     .fixed-lg-bottom {
         position: fixed;
         right: 0;
         bottom: 0;
         left: 0;
+    }
+
+    .play-btn-responsive {
+        width: 120px !important;
+    }
+
+
+    .profile-videos {
+        width: 33px !important;
     }
 
     .width-md-50 {
@@ -839,9 +880,51 @@ header {
         font-size: 20px !important;
     }
 
+
+}
+
+@media (min-width: 768px) {
+    .play-btn-responsive {
+        width: 120px !important;
+    }
+
+    .profile-videos {
+        width: 35px !important;
+    }
+
+    .font-size-md-1 {
+        font-size: 16px !important;
+    }
+
+    .font-size-md-2 {
+        font-size: 13px !important;
+    }
+
+    .eyes-icons {
+        width: 16px;
+    }
 }
 
 @media (max-width: 768px) {
+    .eyes-icons {
+        width: 12px;
+    }
+
+    .w-md-100 {
+        width: 100% !important;
+    }
+
+    .cards-video {
+        width: 100%;
+    }
+
+    body .container-fluid .owl-carousel .owl-item .active {
+        width: 250px !important;
+    }
+
+    body .logo-responsives {
+        width: 160px !important;
+    }
 
     body .justify-content-xs-center {
         justify-content: center;
@@ -877,8 +960,31 @@ header {
 
 }
 
+@media (max-width: 600px) {
+
+    body .logo-responsives {
+        width: 160px !important;
+    }
+
+    .font-size-md-1 {
+        font-size: 11px !important;
+    }
+
+    .font-size-md-2 {
+        font-size: 9px !important;
+    }
+
+    .play-btn-responsive {
+        width: 65px !important;
+    }
+
+    .profile-videos {
+        width: 24px !important;
+    }
+}
 
 @media (min-width: 320px) {
+
 
     body .z-0 {
         z-index: 0 !important;

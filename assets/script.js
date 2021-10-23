@@ -80,17 +80,23 @@ function owlInitialize() {
 if ($(window).width() < 1140) {
         $('#slids').addClass("owl-carousel");
         $('.owl-carousel').owlCarousel({
-            loop: false,
+            loop: true,
             margin: 20,
             dots: false,
+            autoplay:true,
+            autoplayTimeout:8000,
+            autoplayHoverPause:true,
             responsive: {
-                0: {
-                    items: 2,
+                0:{
+                    items:2,
                 },
                 480: {
                     items: 2,
+                },
+                993: {
+                    items: 4,
                 }
-            }
+            },
         });
     } else {
         $('.owl-carousel').owlCarousel('destroy');
@@ -100,6 +106,6 @@ if ($(window).width() < 1140) {
 $(document).ready(function (e) {
     owlInitialize();
 });
-$(window).resize(function () {
+$(document).ready(function (e) {
     owlInitialize();
 });
