@@ -983,6 +983,22 @@ header {
     }
 }
 
+@media (max-width: 428px) {
+
+    .ml-xs-1 {
+        margin-left: 16%;
+    }
+
+    .ml-xs-2 {
+        margin-left: 12%;
+    }
+
+    .ml-xs-3 {
+        margin-left: 14%;
+    }
+
+}
+
 @media (min-width: 320px) {
 
 
