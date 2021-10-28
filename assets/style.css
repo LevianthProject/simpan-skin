@@ -623,7 +623,18 @@ header {
 
 /* Responsive */
 
-@media (min-width: 1440px) {
+
+@media (min-width: 1140px) {
+    .hidden-lg-1 {
+        display: none;
+    }
+
+    .fixed-lg-bottom {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+    }
 
     body .container-xxl {
         max-width: 1550px;
@@ -632,16 +643,6 @@ header {
         margin-right: auto;
         margin-left: auto;
     }
-
-}
-
-@media (min-width: 1440px) {
-    .hidden-lg-1 {
-        display: none;
-    }
-}
-
-@media (min-width: 1140px) {
 
     .overflow-y-hide {
         overflow-y: hidden;
@@ -688,13 +689,6 @@ header {
 
     body .logo-responsives {
         width: 25% !important;
-    }
-
-    .fixed-lg-bottom {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        left: 0;
     }
 
     .play-btn-responsive {
@@ -1000,7 +994,9 @@ header {
 }
 
 @media (min-width: 320px) {
-
+    body .z-n1 {
+        z-index: -1 !important;
+    }
 
     body .z-0 {
         z-index: 0 !important;
