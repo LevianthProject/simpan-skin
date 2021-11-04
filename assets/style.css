@@ -786,7 +786,7 @@ header {
         width: 21% !important;
     }
 
-    .play-btn-responsive {
+    html body .container-fluid .card-body .play-btn-responsive {
         width: 120px !important;
     }
 
@@ -1066,7 +1066,7 @@ header {
 }
 
 @media (min-width: 768px) {
-    .play-btn-responsive {
+    html body .container-fluid .card-body .play-btn-responsive {
         width: 120px !important;
     }
 
@@ -1156,8 +1156,8 @@ header {
         font-size: 9px !important;
     }
 
-    .play-btn-responsive {
-        width: 65px !important;
+    html body .container-fluid .card-body .play-btn-responsive {
+        width: 65px;
     }
 
     .profile-videos {
@@ -1166,7 +1166,6 @@ header {
 }
 
 @media (max-width: 428px) {
-
     .ml-xs-1 {
         margin-left: 16%;
     }
@@ -1182,6 +1181,25 @@ header {
 }
 
 @media (max-width: 375px) {
+    html body .container-fluid .card-body .play-btn-responsive {
+        width: 45px !important;
+    }
+
+    body .btn-style {
+        height: 40px;
+        width: 102px;
+        padding: .375rem .5rem !important;
+        font-size: 10px !important;
+    }
+
+    .font-size-md-1 {
+        font-size: 9px !important;
+    }
+
+
+    .profile-videos {
+        width: 20px !important;
+    }
 
     .audio-results {
         position: relative;
@@ -1206,6 +1224,18 @@ header {
         width: 50px;
     }
 
+    .font-size-md-2 {
+        font-size: 7px !important;
+    }
+
+    .pt-xxs-1 {
+        padding-top: 0.25rem !important;
+    }
+
+    .px-xs-1 {
+        padding-left: 0.75rem !important;
+        padding-right: 0.75rem !important;
+    }
 
 }
 
